@@ -182,7 +182,7 @@ $("#6pm").val(localStorage.getItem("6:00"));
 
 /* delete text from text area and localstorage */
 $(".delbtn8").on("click", function () {
-  var localStor = $(this).siblings('#8am').val("");
+  var localStor = $(this).siblings("#8am").val("");
   localStorage.removeItem("8:00", localStor);
 });
 
@@ -197,7 +197,7 @@ $(".delbtn10").on("click", function () {
 });
 
 $(".delbtn11").on("click", function () {
-  var localStor = $(this).siblings("118am").val("");
+  var localStor = $(this).siblings("#11am").val("");
   localStorage.removeItem("11:00", localStor);
 });
 
